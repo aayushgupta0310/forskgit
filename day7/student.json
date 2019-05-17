@@ -1,0 +1,70 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue May 14 10:32:08 2019
+
+@author: User
+"""
+
+"""
+
+Code Challenge
+  Name: 
+    Student and Faculty JSON
+  Filename: 
+    student.json
+    faculty.json
+  Problem Statement:
+    Create a student and Faculty JSON object and get it verified using jsonlint.com
+    Write a JSON for faculty profile. 
+    The JSON should have profile of minimum 2 faculty members. 
+    The profile for each faculty should include below information atleast:
+
+        First Name
+        Last Name
+        Photo (Just a random url)
+        Department 
+        Research Areas (can be multiple)
+        Contact Details (should include phone number and email id and can have multiple )
+   Hint:
+       www.jsonlint.com
+       
+"""
+
+json_string = """
+{
+    {
+	"student": {
+		"name": [{
+			"fname": "Aayush",
+			"lname": "Gupta"
+		}],
+		"mobileno": 9435249674,
+		"college": "git",
+		"rollno.": "16egjcs002",
+		"dob": " 03 - 10 - 1997",
+		"address": [{
+			"city": "jaipur",
+			"state": "rajasthan",
+			"p_address": "xyz"
+		}],
+		"photo": "https://www.google.com/search?q=guitar&rlz=1C1CHBD_enIN749IN749&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjFk6vxopriAhWMrY8KHajWCQkQ_AUIDygC&biw=1536&bih=754#"
+	},
+	"student1": {
+		"name": [{
+			"fname": "Aakash",
+			"lname": "soni"
+		}],
+		"mobileno": 9435249674,
+		"college": "gct",
+		"rollno.": "16egccs001",
+		"dob": "03 - 10 - 1997",
+		"address": [{
+			"city": "jaipur",
+			"state": "rajasthan",
+			"p_address": "xyz"
+		}],
+		"photo": "https://www.google.com/search?q=guitar&rlz=1C1CHBD_enIN749IN749&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjFk6vxopriAhWMrY8KHajWCQkQ_AUIDygC&biw=1536&bih=754#"
+	}
+}
+}
+"""
